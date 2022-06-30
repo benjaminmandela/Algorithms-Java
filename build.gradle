@@ -1,0 +1,9 @@
+plugins {
+  id 'java'
+}
+
+repositories {
+  flatDir { //Using the local file system to resolve dependencies
+    dirs 'lib'
+  }
+}
